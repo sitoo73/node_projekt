@@ -1,0 +1,28 @@
+{
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0",
+      "supertest": "^6.3.3"
+    },
+    "name": "node_projekt",
+    "description": "",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest src/app.test.js",
+      "start": "node src"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+github.com/adrianflak/node_projekt.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "github.com/adrianflak/node_projekt/issues"
+    },
+    "homepage": "github.com/adrianflak/node_projekt#readme"
+  }
+  
