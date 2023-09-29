@@ -34,5 +34,5 @@ jobs:
     - name: Wdrożenie aplikacji na Azure App Service
       uses: azure/webapps-deploy@v1
       with: 
-            app-name: secondnodeapp
+            app-name: SecondNodeApp
             publish-profile: ${{secrets.AZURE_WEB_PROFILE}}
